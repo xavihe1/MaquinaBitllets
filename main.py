@@ -1,11 +1,16 @@
-MONEDES_PERMESES = [0.05, 0.10, 0.20, 0.50, 1, 2, 5, 10, 20, 50]
+TJOVE = 5
+TFAMILIAR = 4
+TUSUAL = 3
+SENZILL = 1
+TCASUAL = 2
+MONEDES_PERMESES = [0.05, 0.10, 0.20, 0.50, 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000]
 
 preusBaseZona1 = {
-    1: 2.40,  # Bitllet senzill
-    2: 11.35,  # TCasual
-    3: 40.00,  # TUsual
-    4: 10.00,  # TFamiliar
-    5: 80.00  # TJove
+    SENZILL: 2.40,  # Bitllet senzill
+    TCASUAL: 11.35,  # TCasual
+    TUSUAL: 40.00,  # TUsual
+    TFAMILIAR: 10.00,  # TFamiliar
+    TJOVE: 80.00  # TJove
 }
 
 
